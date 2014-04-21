@@ -442,6 +442,10 @@ class Oktavia
             {
                 str += this._compressCode2utf16[code];
             }
+            else
+            {
+                str += ' ';
+            }
         }
         return str;
     }
